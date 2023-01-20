@@ -1,22 +1,23 @@
-import React, { useState } from 'react'
-import NavBar from '../../components/NavBar'
-import Sidebar from '../../components/SideBar'
-import HeroSection from '../../components/HeroSection'
-
+import React, { useState } from "react";
+import NavBar from "../../components/NavBar";
+import Sidebar from "../../components/SideBar";
+import HeroSection from "../../components/HeroSection";
+import SkillSection from "../../components/SkillsSection";
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => {
-        setIsOpen(!isOpen);
-    }
-    return (
-        <>
-            <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <NavBar toggle={toggle}/>
-            <HeroSection/>
-        </>
-    )
-}
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <NavBar toggle={toggle} />
+      <HeroSection />
+      {/* <SkillSection /> */}
+    </>
+  );
+};
 
-export default Home
+export default Home;

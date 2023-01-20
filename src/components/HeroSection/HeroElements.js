@@ -62,7 +62,7 @@ export const SubtitleText = styled.h3`
 `;
 
 export const InformationParagraph = styled.p`
-  margin-top: 5%;
+  margin: 5% 0%;
   line-height: 1.65;
   text-align: justify;
   animation: 1s ${informationAnimation};

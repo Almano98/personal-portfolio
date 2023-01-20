@@ -23,7 +23,7 @@ const NavBar = ({ toggle }) => {
         <Nav>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <b>LEKR</b>
+              <b>ALMANO</b>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <BarIcon />
@@ -36,7 +36,7 @@ const NavBar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={0}
                 >
                   About
                 </NavLinks>
