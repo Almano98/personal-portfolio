@@ -1,18 +1,6 @@
 import styled, { keyframes } from "styled-components";
-import {
-  fadeInRight,
-  fadeInLeft,
-  fadeIn,
-  hinge,
-  jello,
-  tada,
-  slideInRight,
-  swing,
-  wobble,
-  zoomIn,
-} from "react-animations";
+import { fadeInRight } from "react-animations";
 
-const imageAnimation = keyframes`${zoomIn}`;
 const informationAnimation = keyframes`${fadeInRight}`;
 
 export const HeroContainer = styled.div`
@@ -20,17 +8,22 @@ export const HeroContainer = styled.div`
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-auto-rows: minmax(200px, auto);
+  @media screen and (max-width: 768px) {
+    display: block;
+    background: rgb(34, 130, 195);
+    background: linear-gradient(
+      0deg,
+      rgba(34, 130, 195, 1) 0%,
+      rgba(0, 212, 255, 1) 85%
+    );
+  }
 `;
 
 export const ImageContainer = styled.div`
-  //   background: red;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  // animation: 0.2s ${imageAnimation};
-  // animation-delay: 0.5s;
-  // animation-fill-mode: both;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -42,16 +35,18 @@ export const Image = styled.img`
 `;
 
 export const InformationContainer = styled.div`
-  //   background: green;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 25%;
+  @media screen and (max-width: 768px) {
+    padding: 0 5%;
+  }
 `;
 
 export const HighlightedText = styled.h4`
-  color: blue;
+  color: black;
   font-weight: 400;
   animation: 0.4s ${informationAnimation};
 `;

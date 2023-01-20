@@ -23,7 +23,7 @@ const NavBar = ({ toggle }) => {
         <Nav>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <b>LEKR</b> &nbsp; services
+              <b>LEKR</b>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <BarIcon />
