@@ -8,7 +8,6 @@ import {
   TitleText,
   SubtitleText,
   InformationParagraph,
-  ButtonContainer,
 } from "./HeroElements";
 import { Button } from "../common/ButtonElements";
 import character from "../../assests/images/character.png";
@@ -34,7 +33,7 @@ const HeroSection = () => {
         <Button>View CV</Button>
       </InformationContainer>
       <ImageContainer>
-        <Image src={character} alt="Yeet"></Image>
+        <Image src={character} alt="Character"></Image>
       </ImageContainer>
     </HeroContainer>
   );

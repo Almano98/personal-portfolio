@@ -8,6 +8,7 @@ export const SectionHeader = styled.div`
   align-items: center;
 `;
 
-export const SectionHeaderText = styled.h2`
-  border-bottom: 2px solid blue;
+export const SectionHeaderText = styled.h1`
+  // border-bottom: 2px solid #92cece;
+  // border-radius: 5px;
 `;

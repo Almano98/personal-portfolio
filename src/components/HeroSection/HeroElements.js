@@ -46,7 +46,7 @@ export const InformationContainer = styled.div`
 `;
 
 export const HighlightedText = styled.h4`
-  color: black;
+  color: #92cece;
   font-weight: 400;
   animation: 0.4s ${informationAnimation};
 `;

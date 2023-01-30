@@ -1,0 +1,22 @@
+[
+  {
+    "id": "0",
+    "name": "Back-End",
+    "description": "As a seasoned back-end engineer with over 2 years of experience, I specialize in developing robust and scalable server-side applications. My primary focus is to create high-performance, reliable and secure back-end systems.\n\n I have a strong proficiency in several back-end technologies including Node.js, Typescript, Python, Go and Java. My expertise in these technologies has allowed me to develop and maintain high-quality back-end systems for various applications and businesses.\n\n I have a deep understanding of server-side architecture, database design and RESTful API development, and I am committed to writing clean, maintainable and well-documented code.\n\nWhether working on complex business logic, integrating with third-party systems, or optimizing performance, I have a proven track record of delivering high-quality back-end solutions. I am confident in my ability to design and develop secure, scalable, and maintainable back-end systems for any project."
+  },
+  {
+    "id": "1",
+    "name": "Front-End",
+    "description": "With 2+ years of experience as a front-end engineer, I have developed a solid understanding of modern front-end technologies. While front-end development is not my primary focus, I have extensive experience in this area from my time working as a full-stack engineer.\n\n I have a strong proficiency in front-end technologies such as React, Vue, Angular, and React Native. My experience with these technologies has allowed me to create dynamic and user-friendly user interfaces for various applications and businesses.\n\n I am experienced in creating responsive and accessible user interfaces, utilizing modern front-end tools and libraries. I am committed to writing clean, maintainable and well-documented code and I have a strong eye for detail when it comes to design and user experience.\n\n Whether working on complex front-end features, optimizing performance, or developing mobile applications, I have a proven track record of delivering high-quality front-end solutions. I am confident in my ability to create engaging and user-friendly front-end experiences for any project."
+  },
+  {
+    "id": "2",
+    "name": "DevOps",
+    "description": "As a DevOps engineer with 2+ years of experience, my focus is on designing, implementing, and maintaining scalable, high-availability, and cost-effective cloud infrastructure. This is my main area of focus, alongside back-end development.\n\n I have hands-on experience with both serverless and non-serverless architectures, and am skilled in the use of AWS infrastructure, Docker, Terraform, Infrastructure as Code (IaC), and other DevOps tools and technologies.\n\nI have automated CI/CD pipelines, configured cloud alerts and logging, and have a deep understanding of network security, system administration, and database administration. I am committed to writing clean, maintainable, and well-documented code and have a proven track record of delivering high-quality DevOps solutions. I am confident in my ability to design and implement secure, scalable, and efficient cloud infrastructure for any project."
+  },
+  {
+    "id": "3",
+    "name": "Solution Design",
+    "description": "As a solution designer, I have extensive experience in designing and scoping new and upcoming features for products.I have participated in numerous solution design sessions and have successfully completed solutions designs on my own for current projects and new clients.\n\n I follow the scrum and agile framework, and am skilled at gathering requirements, conducting feasibility studies, and creating technical specifications and architecture diagrams. I enjoy the challenge of turning business requirements into effective technical solutions and am confident in delivering high-quality results.\n\n Whether working with a team or independently, I am dedicated to meeting project goals and exceeding stakeholder expectations."
+  }
+]

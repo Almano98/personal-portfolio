@@ -1,8 +1,8 @@
 import styled, { keyframes } from "styled-components";
-import { fadeInDown, slideInDown } from "react-animations";
+import { slideInDown } from "react-animations";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 const navAnimation = keyframes`${slideInDown}`;
 
@@ -31,19 +31,11 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
+  max-width: 1400px;
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: black;
-  justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  margin-left: 24px;
-  font-weight: bold;
-  text-decoration: none;
 `;
 
 export const MobileIcon = styled.div`
@@ -93,6 +85,8 @@ export const NavLinks = styled(LinkS)`
   }
 
   &:hover {
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #92cece;
   }
 `;
+
+export const Image = styled.img``;

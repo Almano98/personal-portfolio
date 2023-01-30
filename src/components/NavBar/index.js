@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { FaBars } from "react-icons/fa";
+import React from "react";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
 import {
@@ -11,7 +10,9 @@ import {
   NavItem,
   NavLinks,
   BarIcon,
+  Image,
 } from "./NavbarElements";
+import logo from "../../assests/images/logo-small.png";
 
 const NavBar = ({ toggle }) => {
   const toggleHome = () => {
@@ -23,7 +24,7 @@ const NavBar = ({ toggle }) => {
         <Nav>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <b>ALMANO</b>
+              <Image src={logo} alt="Matthew Almano"></Image>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <BarIcon />
