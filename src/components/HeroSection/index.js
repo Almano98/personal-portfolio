@@ -8,9 +8,10 @@ import {
   TitleText,
   SubtitleText,
   InformationParagraph,
+  ButtonContainer,
 } from "./HeroElements";
 import { Button } from "../common/ButtonElements";
-import character from "../../assests/images/character.png";
+import character from "../../assests/images/character.gif";
 
 const HeroSection = () => {
   return (
@@ -30,7 +31,9 @@ const HeroSection = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </InformationParagraph>
-        <Button>View CV</Button>
+        <ButtonContainer>
+          <Button>View CV</Button>
+        </ButtonContainer>
       </InformationContainer>
       <ImageContainer>
         <Image src={character} alt="Character"></Image>

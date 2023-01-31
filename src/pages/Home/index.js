@@ -4,6 +4,7 @@ import Sidebar from "../../components/SideBar";
 import HeroSection from "../../components/HeroSection";
 import SkillSection from "../../components/SkillsSection";
 import ProjectSection from "../../components/ProjectsSection";
+import ExperienceSection from "../../components/ExperienceSection";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,7 @@ const Home = () => {
       <NavBar toggle={toggle} />
       <HeroSection />
       <SkillSection />
+      <ExperienceSection />
       {/* <ProjectSection /> */}
     </>
   );

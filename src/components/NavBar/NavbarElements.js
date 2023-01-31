@@ -89,4 +89,7 @@ export const NavLinks = styled(LinkS)`
   }
 `;
 
-export const Image = styled.img``;
+export const Image = styled.img`
+  height: 75px;
+  width: 75px;
+`;

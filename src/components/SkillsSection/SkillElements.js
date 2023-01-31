@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const SkillsContainer = styled.div`
-  height: 80vh;
+  min-height: 100vh;
 `;
 
 export const InformationContainer = styled.div`
-  background: lightgray;
+  // background: lightgray;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
 `;
 
 export const InformationContent = styled.p`
@@ -22,11 +23,4 @@ export const InformationContent = styled.p`
   @media screen and (max-width: 768px) {
     padding: 2% 10%;
   }
-`;
-
-export const SkillTags = styled.div`
-  height: 50%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
 `;

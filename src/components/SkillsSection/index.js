@@ -7,6 +7,7 @@ import {
 import { SectionHeader, SectionHeaderText } from "../common/SectionElements";
 import { FilterButton, ButtonContainer } from "../common/ButtonElements";
 import skills from "../../data/skills-data.json";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const SkillSection = () => {
   const [activeSkill, setActiveSkill] = useState("0");
@@ -15,7 +16,8 @@ const SkillSection = () => {
   };
   return (
     <>
-      <SkillsContainer id="about">
+      {/* <AnimationOnScroll animateIn="animate__fadeIn"> */}
+      <SkillsContainer id="skills">
         <SectionHeader>
           <SectionHeaderText>Services</SectionHeaderText>
         </SectionHeader>
@@ -37,6 +39,7 @@ const SkillSection = () => {
           </InformationContent>
         </InformationContainer>
       </SkillsContainer>
+      {/* </AnimationOnScroll> */}
     </>
   );
 };

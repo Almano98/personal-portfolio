@@ -30,8 +30,8 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  max-height: 50%;
-  max-width: 75%;
+  // max-height: 50%;
+  // max-width: 75%;
 `;
 
 export const InformationContainer = styled.div`
@@ -65,5 +65,9 @@ export const InformationParagraph = styled.p`
   margin: 5% 0%;
   line-height: 1.65;
   text-align: justify;
+  animation: 1s ${informationAnimation};
+`;
+
+export const ButtonContainer = styled.div`
   animation: 1s ${informationAnimation};
 `;

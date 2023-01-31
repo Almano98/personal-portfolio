@@ -42,6 +42,6 @@ export const ButtonContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding-bottom: 1rem;
 `;

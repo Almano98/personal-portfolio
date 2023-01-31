@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SectionHeader = styled.div`
-  height: 10%;
+  height: 15vh;
   width: 100%;
   display: flex;
   justify-content: center;

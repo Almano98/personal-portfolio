@@ -1,0 +1,30 @@
+[
+  {
+    "id": "0",
+    "title": "Co-founder",
+    "date": "May 2022 - Present",
+    "location": "LEKR Services",
+    "description": "Created a product that provides business tools and business automation for small to medium businesses. The product can be viewed at lekr.co"
+  },
+  {
+    "id": "1",
+    "title": "Tech Lead Full Stack Software Engineer",
+    "date": "Aug 2020 - Apr 2022",
+    "location": "MOHARA",
+    "description": "MOHARA is an international consultancy based in the UK with development hubs in South Africa and Thailand, I worked as a Full Stack engineer transitioning to project tech lead, across multiple projects, making use of a wide range of technologies denoted below. "
+  },
+  {
+    "id": "2",
+    "title": "Intern",
+    "date": "Dec 2017 - Jan 2020",
+    "location": "SOLIDitech",
+    "description": "SOLIDitech offers end-to-end business automation tools to ISPs and Fibre providers in South Africa."
+  },
+  {
+    "id": "3",
+    "title": "Bsc, Mathematical Sciences & Computer Science",
+    "date": "Jan 2017 - Jan 2020",
+    "location": "University of Stellenbosch",
+    "description": "Bachelor of Science degree majoring in Mathematics and Computer Science."
+  }
+]
