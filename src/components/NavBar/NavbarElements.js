@@ -80,7 +80,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    color: #f69865;
+    color: #92cece;
     font-weight: bold;
   }
 

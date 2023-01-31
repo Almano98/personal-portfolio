@@ -30,8 +30,8 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  // max-height: 50%;
-  // max-width: 75%;
+  max-height: 50%;
+  max-width: 75%;
 `;
 
 export const InformationContainer = styled.div`

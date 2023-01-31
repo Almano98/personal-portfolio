@@ -6,6 +6,7 @@ export const SectionHeader = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  // border-top: 2px solid #92cece;
 `;
 
 export const SectionHeaderText = styled.h1`
