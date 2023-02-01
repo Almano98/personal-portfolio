@@ -11,7 +11,7 @@ import {
   ButtonContainer,
 } from "./HeroElements";
 import { Button } from "../common/ButtonElements";
-import character from "../../assests/images/character.png";
+import character from "../../assests/images/character2.gif";
 
 const HeroSection = () => {
   return (

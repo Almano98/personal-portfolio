@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   InformationContainer,
   InformationContent,
@@ -11,35 +11,51 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const SkillSection = () => {
   const [activeSkill, setActiveSkill] = useState("0");
+  const textRef = useRef();
   const handleClick = (event) => {
     setActiveSkill(event.target.id);
   };
+
+  useEffect(() => {
+    textRef.current.animate(
+      {
+        opacity: [0, 1],
+      },
+      300
+    );
+  });
+
   return (
     <>
-      {/* <AnimationOnScroll animateIn="animate__fadeIn"> */}
       <SkillsContainer id="skills">
-        <SectionHeader>
-          <SectionHeaderText>Services</SectionHeaderText>
-        </SectionHeader>
-        <ButtonContainer>
-          {skills.map((skill) => (
-            <FilterButton
-              key={skill.id}
-              id={skill.id}
-              active={activeSkill === skill.id}
-              onClick={handleClick}
-            >
-              {skill.name}
-            </FilterButton>
-          ))}
-        </ButtonContainer>
-        <InformationContainer>
-          <InformationContent>
-            {skills[activeSkill].description}
-          </InformationContent>
-        </InformationContainer>
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
+          <SectionHeader>
+            <SectionHeaderText>Services</SectionHeaderText>
+          </SectionHeader>
+        </AnimationOnScroll>
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
+          <ButtonContainer>
+            {skills.map((skill) => (
+              <FilterButton
+                key={skill.id}
+                id={skill.id}
+                active={activeSkill === skill.id}
+                onClick={handleClick}
+              >
+                {skill.name}
+              </FilterButton>
+            ))}
+          </ButtonContainer>
+        </AnimationOnScroll>
+
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
+          <InformationContainer ref={textRef}>
+            <InformationContent>
+              {skills[activeSkill].description}
+            </InformationContent>
+          </InformationContainer>
+        </AnimationOnScroll>
       </SkillsContainer>
-      {/* </AnimationOnScroll> */}
     </>
   );
 };

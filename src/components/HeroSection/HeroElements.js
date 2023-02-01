@@ -22,7 +22,7 @@ export const HeroContainer = styled.div`
 export const ImageContainer = styled.div`
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   @media screen and (max-width: 768px) {
     display: none;
@@ -30,7 +30,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  max-height: 50%;
+  max-height: 100%;
   max-width: 75%;
 `;
 

@@ -10,10 +10,12 @@ export const FilterButton = styled.button`
     color: white;
     background: #92cece;
   }
+  transition: all 0.3s ease-in-out;
 
   ${({ active }) =>
     active &&
     `
+
     color: white;
     background: #92cece;
   `}
@@ -30,6 +32,8 @@ export const Button = styled.button`
   width: 10rem;
   padding: 1rem;
   border: 2px solid #92cece;
+  transition: all 0.3s ease-in-out;
+
   &:hover {
     color: white;
     background: #92cece;
