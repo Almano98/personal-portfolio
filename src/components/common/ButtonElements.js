@@ -14,9 +14,7 @@ export const FilterButton = styled.button`
 
   ${({ active }) =>
     active &&
-    `
-
-    color: white;
+    `color: white;
     background: #92cece;
   `}
 
