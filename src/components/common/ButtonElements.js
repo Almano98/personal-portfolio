@@ -6,6 +6,7 @@ export const FilterButton = styled.button`
   padding: 1rem;
   border: 2px solid #92cece;
   margin: 0 1rem;
+  background: #fff;
   &:hover {
     color: white;
     background: #92cece;
@@ -31,6 +32,7 @@ export const Button = styled.button`
   padding: 1rem;
   border: 2px solid #92cece;
   transition: all 0.3s ease-in-out;
+  background: #fff;
 
   &:hover {
     color: white;
