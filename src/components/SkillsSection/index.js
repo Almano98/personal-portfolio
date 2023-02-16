@@ -30,7 +30,7 @@ const SkillSection = () => {
       <SkillsContainer id="skills">
         <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
           <SectionHeader>
-            <SectionHeaderText>Services</SectionHeaderText>
+            <SectionHeaderText>Skills</SectionHeaderText>
           </SectionHeader>
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>

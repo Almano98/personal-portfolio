@@ -70,8 +70,9 @@ const NavBar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
+                  offset={80}
                 >
-                  Contact Us
+                  Contact Me
                 </NavLinks>
               </NavItem>
             </NavMenu>
