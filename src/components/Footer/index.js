@@ -21,7 +21,7 @@ const Footer = () => {
           <FooterIcon
             bgColor="white"
             fgColor="#93cece"
-            url="https://instagram.com/matthewalmano"
+            url="mailto:matthew.almano51@gmail.com"
             target="_blank"
           />
           <FooterIcon
