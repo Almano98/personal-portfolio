@@ -30,6 +30,7 @@ const ProjectSection = () => {
               showThumbs={false}
               infiniteLoop={true}
               showStatus={false}
+              interval={30000}
             >
               {ProjectData.map((project, index) => (
                 <Card

@@ -3,7 +3,6 @@ import {
   CardContainer,
   Title,
   ProjectLink,
-  ContentContainer,
   Description,
   CarousalContainer,
 } from "./CardElements";

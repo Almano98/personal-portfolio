@@ -3,17 +3,22 @@ import styled from "styled-components";
 export const CarousalContainer = styled.div`
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 1.5rem;
   max-height: 75vh;
+  background-image: url("./src/assets/images/project-background.jpeg");
 `;
 
 export const CardContainer = styled.div`
+  z-index: 1;
   width: 90%;
   padding: 2rem;
   box-shadow: 0 4px 8px 0 rgba(68, 85, 90, 0.2);
-  border: 2px solid #92cece;
+  border: 1px solid rgba(0, 0, 0, 0.8);
   border-radius: 15px;
-  background-color: #fefefe;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
   min-height: 300px;
   display: flex;
   flex-direction: column;
@@ -36,13 +41,16 @@ export const Title = styled.h2`
 
 export const ProjectLink = styled.a`
   color: white;
-  background-color: #92cece;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-top: 1rem;
+  background: transparent;
   text-decoration: none;
+  border-radius: 40px;
+  width: 10rem;
+  padding: 1rem;
+  border: 2px solid #92cece;
+  transition: all 0.3s ease-in-out;
+
   &:hover {
-    background-color: #92cece;
-    cursor: pointer;
+    color: white;
+    background: #92cece;
   }
 `;
