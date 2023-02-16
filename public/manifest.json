@@ -1,11 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Almano Portfolio",
+  "name": "Matthew Almano's persional professional portfolio",
   "icons": [
     {
       "src": "logo.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "100x100"
     }
   ],
   "start_url": ".",
