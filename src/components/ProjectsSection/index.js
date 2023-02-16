@@ -35,6 +35,7 @@ const ProjectSection = () => {
               {ProjectData.map((project, index) => (
                 <Card
                   key={index}
+                  image={project.image}
                   name={project.project_name}
                   description={project.project_description}
                   link={project.project_link}
