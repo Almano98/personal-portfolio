@@ -13,20 +13,5 @@
     "project_name": "Project 3",
     "project_description": "A third sample project that illustrates the use of JSON data in a project card component.",
     "project_link": "http://www.project3.com"
-  },
-  {
-    "project_name": "Project 1",
-    "project_description": "This is a sample project that demonstrates the use of JSON data in a project card component.",
-    "project_link": "http://www.project1.com"
-  },
-  {
-    "project_name": "Project 2",
-    "project_description": "This is another sample project that shows how JSON data can be used to populate a project card component.",
-    "project_link": "http://www.project2.com"
-  },
-  {
-    "project_name": "Project 3",
-    "project_description": "A third sample project that illustrates the use of JSON data in a project card component.",
-    "project_link": "http://www.project3.com"
   }
 ]

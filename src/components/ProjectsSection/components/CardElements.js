@@ -1,11 +1,18 @@
 import styled from "styled-components";
 
+export const CarousalContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  // height: 100%;
+`;
+
 export const CardContainer = styled.div`
-  width: 300px;
+  width: 90%;
   margin: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(68, 85, 90, 0.2);
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: #fefefe;
   text-align: center;
   border: 2px solid #92cece;
