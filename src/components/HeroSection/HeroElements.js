@@ -40,7 +40,7 @@ export const InformationContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 0 25%;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1300px) {
     padding: 0 5%;
   }
 `;

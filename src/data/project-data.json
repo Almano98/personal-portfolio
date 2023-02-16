@@ -1,17 +1,20 @@
 [
   {
-    "project_name": "Project 1",
-    "project_description": "This is a sample project that demonstrates the use of JSON data in a project card component.",
-    "project_link": "http://www.project1.com"
+    "project_name": "ekko",
+    "type": ["featured", "professional"],
+    "project_description": "ekko is a FinTech company that empowers businesses and consumers worldwide to combat climate change. ekko's innovative solution won the Best Green Initiative in Payments award in 2022 and Best Achievement in Sustainability 2023. With ekko's debit card, users earn points for every swipe that goes towards collecting plastic from oceans and planting trees. Users can also view their carbon emission expenditure and access a marketplace of green merchants partnered with EKKO.\n\nAs a key member of the backend and DevOps team, my focus was on solution design and the development of new features. One notable contribution was the implementation of a waitlisting system that enabled us to send and track tens of thousands of emails per week and retrieve analytical data on signups. Additionally, I worked on transactions through PPS and integrated with Mastercard to collect carbon emission data per transaction item and provide data analysis on the front end.\n\nThe tech stack for EKKO includes React Native with TypeScript for the front end, a serverless TypeScript project with a GraphQL API connected to a MongoDB database for the backend, and Terraform for infrastructure management on AWS.\n\nOverall, I contributed to the successful implementation of key features, resulting in EKKO's award-winning solution and positive impact on the fight against climate change.",
+    "project_link": "https://joinekko.earth/"
   },
   {
-    "project_name": "Project 2",
-    "project_description": "This is another sample project that shows how JSON data can be used to populate a project card component.",
-    "project_link": "http://www.project2.com"
+    "project_name": "Bloom",
+    "type": ["featured", "professional"],
+    "project_description": "Bloom Support is a comprehensive care provision software that puts users in control of their care homes. The app's versatile note-taking system allows care providers to easily track patient activity throughout the day, such as medication schedules and meal times. Additionally, the platform includes a management web app for completing existing app functionality and aggregating data. Bloom Support is currently used by care homes in the UK and South Africa.\n\nAs a full-stack engineer and team lead for Bloom Support, I primarily focused on the web app and backend functionality. One of the standout features I contributed to was the software's sophisticated data aggregation, filtering, and viewing system. Additionally, I helped develop an auditing system that allows users to track changes in data and management to approve changes.\n\nThe tech stack for Bloom Support included React Native for the app frontend, Python Django for the backend connected to a MySQL database, and is hosted on an Elastic Beanstalk instance on AWS and connected to an RDS MySQL database.\n\nOverall, my contributions helped bring a high level of functionality and data management to Bloom Support, contributing to its success as a widely-used care provision software solution.",
+    "project_link": "https://www.bloomsupport.co/"
   },
   {
-    "project_name": "Project 3",
-    "project_description": "A third sample project that illustrates the use of JSON data in a project card component.",
-    "project_link": "http://www.project3.com"
+    "project_name": "EMSOL",
+    "type": ["featured", "professional"],
+    "project_description": "At EMSOL, I worked as a full-stack engineer, contributing to the company's mission of improving urban air quality and reducing air and noise pollution on various sites. To achieve this, EMSOL installs air and noise quality monitors and camera technology at facilities to collect data 24/7, which is then sent to the EMSOL platform for analysis.\n\nAs part of my role, I was responsible for developing the data aggregation and processing systems that would take the raw sensor data and present it in user-friendly formats such as tables, graphs, and charts. I also created data generation forms to generate CVS files for data analysis.\n\nThe tech stack for EMSOL included a Node.js backend and a React frontend, with various IoT services on AWS to communicate and review the data from the sensors. Additionally, I worked on implementing Docker containers to isolate the sensors' logic and remotely access and debug them as needed.\n\nOverall, working on EMSOL provided me with the opportunity to work on a meaningful project with a clear goal of improving the environment, while also giving me the chance to work with cutting-edge technology and hone my full-stack development skills.",
+    "project_link": "https://emsol.io/"
   }
 ]

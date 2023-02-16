@@ -17,16 +17,19 @@ const Footer = () => {
             bgColor="white"
             fgColor="#93cece"
             url="https://www.linkedin.com/in/matthew-almano/"
+            target="_blank"
           />
           <FooterIcon
             bgColor="white"
             fgColor="#93cece"
             url="https://instagram.com/matthewalmano"
+            target="_blank"
           />
           <FooterIcon
             bgColor="white"
             fgColor="#93cece"
             url="https://github.com/Almano98"
+            target="_blank"
           />
         </div>
       </FooterContainer>

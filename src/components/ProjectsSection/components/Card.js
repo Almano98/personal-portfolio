@@ -12,11 +12,11 @@ const Card = (props) => {
   return (
     <CarousalContainer>
       <CardContainer>
-        <ContentContainer>
-          <Title>{props.name}</Title>
-          <Description>{props.description}</Description>
-          <ProjectLink href={props.link}>Visit Project</ProjectLink>
-        </ContentContainer>
+        <Title>{props.name}</Title>
+        <Description>{props.description}</Description>
+        <ProjectLink href={props.link} target="_blank">
+          View Project
+        </ProjectLink>
       </CardContainer>
     </CarousalContainer>
   );

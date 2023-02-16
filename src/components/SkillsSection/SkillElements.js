@@ -20,7 +20,7 @@ export const InformationContent = styled.p`
 
   padding: 5% 25%;
   white-space: pre-line;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1300px) {
     padding: 2% 10%;
   }
 `;

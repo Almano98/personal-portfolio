@@ -12,7 +12,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 const ProjectSection = () => {
-  console.log(ProjectData);
   return (
     <>
       <ProjectContainer id="projects">
@@ -27,11 +26,10 @@ const ProjectSection = () => {
         <ProjectCardContainer>
           <CarousalContainer>
             <Carousel
-              // autoPlay={true}
+              autoPlay={true}
               showThumbs={false}
               infiniteLoop={true}
               showStatus={false}
-              dynamicHeigh={true}
             >
               {ProjectData.map((project, index) => (
                 <Card

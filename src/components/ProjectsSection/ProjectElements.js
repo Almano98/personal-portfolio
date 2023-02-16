@@ -10,12 +10,12 @@ export const ProjectCardContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80%;
+  height: 80vh;
 `;
 
 export const CarousalContainer = styled.div`
-  width: 50%;
-  @media screen and (max-width: 768px) {
+  width: 100rem;
+  @media screen and (max-width: 1300px) {
     width: 100%;
   }
 `;
