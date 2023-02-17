@@ -8,42 +8,76 @@ import {
   FormLabel,
   FormTextArea,
 } from "./ContactElements";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactSection = () => {
-  const nameRef = useRef(null);
-  const emailRef = useRef(null);
-  const messageRef = useRef(null);
+  const formRef = useRef();
 
-  const handleSubmit = () => {
-    console.log(
-      nameRef.current.value,
-      emailRef.current.value,
-      messageRef.current.value
-    );
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(process.env.REACT_APP_PUBLIC_KEY);
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        formRef.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          toast.success("Submitted succesfully!", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+          });
+          e.target.reset();
+        },
+        (error) => {
+          toast.error("Something went wrong! Please try again", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+          });
+        }
+      );
   };
 
   return (
     <>
+      <ToastContainer />
       <ContactContainer id="contact">
         <SectionHeader>
           <SectionHeaderText>Contact</SectionHeaderText>
         </SectionHeader>
-
-        <FormContainer>
-          <FormLabel htmlFor="name">Name</FormLabel>
-          <FormInput id="name" type="text" ref={nameRef}></FormInput>
-          <FormLabel htmlFor="email">Email</FormLabel>
-          <FormInput id="email" type="email" ref={emailRef}></FormInput>
-          <FormLabel htmlFor="message">Message</FormLabel>
-          <FormTextArea
-            id="message"
-            type="textarea"
-            ref={messageRef}
-          ></FormTextArea>
-          <FormButton id="submit" type="submit" onClick={handleSubmit}>
-            Send Message
-          </FormButton>
-        </FormContainer>
+        <form ref={formRef} onSubmit={handleSubmit}>
+          <FormContainer>
+            <FormLabel htmlFor="name">Name</FormLabel>
+            <FormInput id="name" type="text" name="full_name"></FormInput>
+            <FormLabel htmlFor="email">Email</FormLabel>
+            <FormInput id="email" type="email" name="email"></FormInput>
+            <FormLabel htmlFor="message">Message</FormLabel>
+            <FormTextArea
+              id="message"
+              type="textarea"
+              name="message"
+            ></FormTextArea>
+            <FormButton id="submit" type="submit">
+              Send Message
+            </FormButton>
+          </FormContainer>
+        </form>
       </ContactContainer>
     </>
   );
