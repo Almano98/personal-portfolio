@@ -60,23 +60,21 @@ const ContactSection = () => {
         <SectionHeader>
           <SectionHeaderText>Contact</SectionHeaderText>
         </SectionHeader>
-        <form ref={formRef} onSubmit={handleSubmit}>
-          <FormContainer>
-            <FormLabel htmlFor="name">Name</FormLabel>
-            <FormInput id="name" type="text" name="full_name"></FormInput>
-            <FormLabel htmlFor="email">Email</FormLabel>
-            <FormInput id="email" type="email" name="email"></FormInput>
-            <FormLabel htmlFor="message">Message</FormLabel>
-            <FormTextArea
-              id="message"
-              type="textarea"
-              name="message"
-            ></FormTextArea>
-            <FormButton id="submit" type="submit">
-              Send Message
-            </FormButton>
-          </FormContainer>
-        </form>
+        <FormContainer ref={formRef} onSubmit={handleSubmit}>
+          <FormLabel htmlFor="name">Name</FormLabel>
+          <FormInput id="name" type="text" name="full_name"></FormInput>
+          <FormLabel htmlFor="email">Email</FormLabel>
+          <FormInput id="email" type="email" name="email"></FormInput>
+          <FormLabel htmlFor="message">Message</FormLabel>
+          <FormTextArea
+            id="message"
+            type="textarea"
+            name="message"
+          ></FormTextArea>
+          <FormButton id="submit" type="submit">
+            Send Message
+          </FormButton>
+        </FormContainer>
       </ContactContainer>
     </>
   );

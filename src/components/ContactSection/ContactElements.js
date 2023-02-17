@@ -8,7 +8,7 @@ export const ContactContainer = styled.div`
   height: 100vh;
 `;
 
-export const FormContainer = styled.div`
+export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
   justify-content: center;
