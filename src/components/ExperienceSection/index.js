@@ -43,7 +43,15 @@ const ExperienceSection = () => {
               >
                 {item.location}
               </h4>
-              <p>{item.description}</p>
+              <p
+                style={{
+                  lineHeight: "1.65",
+                  textAlign: "justify",
+                  whiteSpace: "pre-line",
+                }}
+              >
+                {item.description}
+              </p>
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>

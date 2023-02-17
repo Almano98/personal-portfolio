@@ -4,21 +4,21 @@
     "title": "Co-founder",
     "date": "May 2022 - Present",
     "location": "LEKR Services",
-    "description": "Created a product that provides business tools and business automation for small to medium businesses. The product can be viewed at lekr.co"
+    "description": "As a co-founder of LEKR Services, I developed a product that offers business tools and automation solutions for small to medium-sized businesses. The tech stack used in the product includes AWS Serverless Lambda, MongoDB, React Web App, and React Native Mobile App.\n\nThe product comprises custom authentication features that include OTP verification and token management, as well as functionalities for generating quotes, invoices, and lead generation. You can view the product at lekr.co\n\nIn addition to my work at LEKR Services, I also freelanced in my spare time."
   },
   {
     "id": "1",
     "title": "Tech Lead Full Stack Software Engineer",
     "date": "Aug 2020 - Apr 2022",
     "location": "MOHARA",
-    "description": "MOHARA is an international consultancy based in the UK with development hubs in South Africa and Thailand, I worked as a Full Stack engineer transitioning to project tech lead, across multiple projects, making use of a wide range of technologies denoted below. "
+    "description": "As a Tech Lead Software Engineer at MOHARA, I gained extensive experience working on various projects across multiple industries, including FinTech, HealthTech, PropertyTech, and IoT, among others. I started as a Full Stack engineer and transitioned to project Tech Lead, taking ownership of multiple projects and guiding them from ideation to successful product launches.\n\nMy responsibilities included managing and mentoring software engineers, front-end development using technologies such as React, Vue, and React Native, as well as back-end development using technologies such as Typescript, Node, Python, Go, and Ruby. Additionally, I gained experience in DevOps using AWS and Google Cloud Platform, Terraform, Serverless, Kubernetes, and Docker.\n\nMy expertise in solution design and tier 0 scoping for new clients helped me to provide valuable insights to the business development team, and I worked directly with both existing and potential clients. During my time at MOHARA, I gained experience working in teams ranging in size from 1 to 15 members, consisting of individuals from different countries including the UK, South Africa, and Thailand."
   },
   {
     "id": "2",
     "title": "Intern",
     "date": "Dec 2017 - Jan 2020",
     "location": "SOLIDitech",
-    "description": "SOLIDitech offers end-to-end business automation tools to ISPs and Fibre providers in South Africa."
+    "description": "SOLIDitech offers end-to-end business automation tools to ISPs and Fibre providers in South Africa. I was lucky enough to participate in the SOLIDitech internship program during my university holidays throughout my university degree, where I gained a lot of real-world experience.\n\nDuring my time at SOLIDitech, I was part of the leadership team that led an internal project from start to finish. The project involved the development of an online testing environment used to evaluate new applicants for a job at MOHARA. This internal tool is still being used today.\n\nAdditionally, I was introduced to and actively used the scrum process and agile framework for project management, and worked with a Java-based tech stack for both front-end (JSP) and back-end development linked to a SQL database."
   },
   {
     "id": "3",
