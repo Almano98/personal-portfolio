@@ -10,12 +10,12 @@ export const HeroContainer = styled.div`
   grid-auto-rows: minmax(200px, auto);
   @media screen and (max-width: 768px) {
     display: block;
-    background: rgb(34, 130, 195);
-    background: linear-gradient(
-      0deg,
-      rgba(34, 130, 195, 1) 0%,
-      rgba(0, 212, 255, 1) 85%
-    );
+    // background: rgb(34, 130, 195);
+    // background: linear-gradient(
+    //   0deg,
+    //   rgba(34, 130, 195, 1) 0%,
+    //   rgba(0, 212, 255, 1) 85%
+    // );
   }
 `;
 

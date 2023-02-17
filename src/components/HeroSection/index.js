@@ -10,8 +10,9 @@ import {
   InformationParagraph,
   ButtonContainer,
 } from "./HeroElements";
-import { Button } from "../common/ButtonElements";
+import { LinkButton } from "../common/ButtonElements";
 import character from "../../assests/images/character2.gif";
+import pdf from "../../assests/files/resume.pdf";
 
 const HeroSection = () => {
   return (
@@ -21,18 +22,26 @@ const HeroSection = () => {
         <TitleText>Matthew Almano</TitleText>
         <SubtitleText>SOFTWARE ENGINEER</SubtitleText>
         <InformationParagraph>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          I am a software engineer based in Cape Town, South Africa with over
+          three years of experience in multiple software industries. My
+          expertise lies primarily in backend development and DevOps, but I am
+          currently working on shifting my focus towards frontend development.
+          <br />
+          <br />
+          In addition to my professional interests, I have a passion for a
+          variety of activities outside of software engineering. I am an avid
+          rock climber, and I also enjoy playing the guitar and exploring new
+          hobbies. Currently, I am learning music production, and I am excited
+          to continue to expand my skills in this area.
+          <br />
+          <br />
+          Thank you for taking the time to view my portfolio, and I look forward
+          to the opportunity to connect with you!
         </InformationParagraph>
         <ButtonContainer>
-          <Button>View CV</Button>
+          <LinkButton href={pdf} target="_blank">
+            View CV
+          </LinkButton>
         </ButtonContainer>
       </InformationContainer>
       <ImageContainer>

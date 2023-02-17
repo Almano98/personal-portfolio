@@ -46,6 +46,21 @@ export const ButtonContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding-bottom: 1rem;
+`;
+
+export const LinkButton = styled.a`
+  color: black;
+  background: transparent;
+  text-decoration: none;
+  border-radius: 40px;
+  width: 10rem;
+  padding: 1rem 2rem;
+  border: 2px solid #92cece;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: white;
+    background: #92cece;
+  }
 `;
