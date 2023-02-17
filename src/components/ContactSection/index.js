@@ -17,7 +17,6 @@ const ContactSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(process.env.REACT_APP_PUBLIC_KEY);
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
