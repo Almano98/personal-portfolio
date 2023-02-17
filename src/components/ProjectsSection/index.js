@@ -16,13 +16,13 @@ const ProjectSection = () => {
     <>
       <ProjectContainer id="projects">
         <SectionHeader>
-          <SectionHeaderText>Projects</SectionHeaderText>
+          <SectionHeaderText>Featured Projects</SectionHeaderText>
         </SectionHeader>
-        <ButtonContainer>
+        {/* <ButtonContainer>
           <FilterButton>Featured</FilterButton>
           <FilterButton>Professional</FilterButton>
           <FilterButton>Personal</FilterButton>
-        </ButtonContainer>
+        </ButtonContainer> */}
         <ProjectCardContainer>
           <CarousalContainer>
             <Carousel
