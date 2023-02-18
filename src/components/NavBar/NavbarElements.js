@@ -20,6 +20,7 @@ export const Nav = styled.nav`
   animation: 1s ${navAnimation};
 
   @media screen and (max-width: 960px) {
+    margin-top: 0px;
     transition: 0.8s all ease;
   }
 `;

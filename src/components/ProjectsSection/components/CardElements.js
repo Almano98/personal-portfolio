@@ -40,8 +40,12 @@ export const Description = styled.p`
   line-height: 1.65;
   text-align: justify;
   white-space: pre-line;
-  overflow: scroll;
   width: 95%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  &:hover {
+    overflow-y: scroll;
+  }
 `;
 
 export const Title = styled.h2`
