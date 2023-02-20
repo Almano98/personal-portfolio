@@ -30,8 +30,9 @@ export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   @media screen and (max-width: 768px) {
-    padding: ;
+    height: 70vh;
   }
 `;
 

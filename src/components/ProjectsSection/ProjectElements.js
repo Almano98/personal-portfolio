@@ -10,7 +10,7 @@ export const ProjectCardContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh; //Change to 80vh when adding button filters
+  height: 80vh; //Change to 80vh when adding button filters
 `;
 
 export const CarousalContainer = styled.div`

@@ -1,5 +1,12 @@
 [
   {
+    "project_name": "LEKR Services",
+    "image": "/img/ekko2.jpeg",
+    "type": ["personal"],
+    "project_description": "LEKR Services product offers business tools and automation solutions for small to medium-sized businesses. The tech stack used in the product includes AWS Serverless Lambda, MongoDB, React Web App, and React Native Mobile App.\n\nThe product comprises custom authentication features that include OTP verification and token management, as well as functionalities for generating quotes, invoices, and lead generation. You can view the product at lekr.co",
+    "project_link": "https://lekr.co"
+  },
+  {
     "project_name": "ekko",
     "image": "/img/ekko2.jpeg",
     "type": ["featured", "professional"],
@@ -19,5 +26,33 @@
     "type": ["featured", "professional"],
     "project_description": "At EMSOL, I worked as a full-stack engineer, contributing to the company's mission of improving urban air quality and reducing air and noise pollution on various sites. To achieve this, EMSOL installs air and noise quality monitors and camera technology at facilities to collect data 24/7, which is then sent to the EMSOL platform for analysis.\n\nAs part of my role, I was responsible for developing the data aggregation and processing systems that would take the raw sensor data and present it in user-friendly formats such as tables, graphs, and charts. I also created data generation forms to generate CVS files for data analysis.\n\nThe tech stack for EMSOL included a Node.js backend and a React frontend, with various IoT services on AWS to communicate and review the data from the sensors. Additionally, I worked on implementing Docker containers to isolate the sensors' logic and remotely access and debug them as needed.\n\nOverall, working on EMSOL provided me with the opportunity to work on a meaningful project with a clear goal of improving the environment, while also giving me the chance to work with cutting-edge technology and hone my full-stack development skills.",
     "project_link": "https://emsol.io/"
+  },
+  {
+    "project_name": "Personal Portfolio Website",
+    "image": "/img/emsol.jpeg",
+    "type": ["personal"],
+    "project_description": "My current personal portfolio website created using React and hosted on AWS. The website showcases my skills, experience, and projects, and provides visitors with a way to get in touch with me. And you're on it right now!\n\nThe code can be viewed on github with the link down below!",
+    "project_link": "https://github.com/Almano98/personal-portfolio"
+  },
+  {
+    "project_name": "Othello AI",
+    "image": "/img/emsol.jpeg",
+    "type": ["personal"],
+    "project_description": "an Othello board game AI program that incorporates several advanced techniques to choose the best move possible. The program utilizes a minimax algorithm with alpha-beta pruning, as well as MPI parallelization for optimal performance. Additionally, the program makes use of iterative deepening and an advanced evaluation function to improve decision-making. With these advanced techniques, the Othello AI program can make more informed decisions and provide a challenging opponent for players.\n\nThe code can be viewed on github with the link down below!",
+    "project_link": "https://github.com/Almano98/Othello-AI"
+  },
+  {
+    "project_name": "Task Manager API",
+    "image": "/img/emsol.jpeg",
+    "type": ["personal"],
+    "project_description": "Task management API created using Node.js and connected to a MongoDB database. The project includes full custom authorization, and makes use of jwtTokens to keep track of user sessions as well as authentication to ensure that tasks are only able to be accessed by the user that created them.\n\nCRUD operations are fully available for both the task and user items.\n\nThe code can be viewed on github with the link down below!",
+    "project_link": "https://github.com/Almano98/task-manager-api"
+  },
+  {
+    "project_name": "Online Chat Application",
+    "image": "/img/emsol.jpeg",
+    "type": ["personal"],
+    "project_description": "This is a simple chat interface that is created using Node.js that allows users to join a room with a chosen username and communicate with others in that room. You are able to send various messages as well as your current location to the chat room. Basic auth was implemented for the users and rooms.\n\nThe program makes use of socket.io and express to handle user interaction with the application and between users.\n\nThe code can be viewed on github with the link down below!",
+    "project_link": "https://github.com/Almano98/Chat-Application"
   }
 ]
