@@ -5,7 +5,7 @@ import {
   ProjectContainer,
   CarousalContainer,
 } from "./ProjectElements";
-import { FilterButton, ButtonContainer } from "../common/ButtonElements";
+// import { FilterButton, ButtonContainer } from "../common/ButtonElements";
 import Card from "./components/Card";
 import ProjectData from "../../data/project-data.json";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
