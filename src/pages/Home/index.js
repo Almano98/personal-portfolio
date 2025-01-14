@@ -19,7 +19,7 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
       <HeroSection />
-      <SkillSection />
+      {/* <SkillSection /> */}
       <ExperienceSection />
       <ProjectSection />
       <ContactSection />

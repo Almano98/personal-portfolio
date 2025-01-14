@@ -27,7 +27,7 @@ export const FormInput = styled.input`
   height: 2rem;
   border: 1.5px solid #92cece;
   border-radius: 5px;
-  padding-left: 0.5rem;as
+  padding-left: 0.5rem;
 `;
 
 export const FormLabel = styled.label`

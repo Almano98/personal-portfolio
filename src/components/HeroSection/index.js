@@ -22,21 +22,29 @@ const HeroSection = () => {
         <TitleText>Matthew Almano</TitleText>
         <SubtitleText>SOFTWARE ENGINEER</SubtitleText>
         <InformationParagraph>
-          I am a software engineer based in Cape Town, South Africa with over
-          three years of experience in multiple software industries. My
-          expertise lies primarily in backend development and DevOps, but I am
-          currently working on shifting my focus towards frontend development.
+          I am a Full Stack Software Engineer with a backend focus and 5 years
+          of professional experience. I am driven by a passion for solving
+          problems—whether they are technical challenges or process
+          improvements—and thrive in collaborative environments where I can
+          contribute to both team and business growth.
           <br />
           <br />
-          In addition to my professional interests, I have a passion for a
-          variety of activities outside of software engineering. I am an avid
-          rock climber, and I also enjoy playing the guitar and exploring new
-          hobbies. Currently, I am learning music production, and I am excited
-          to continue to expand my skills in this area.
+          What I enjoy most about my work is the opportunity to collaborate with
+          others. I find immense satisfaction in supporting my teammates,
+          sharing knowledge, and driving initiatives that improve workflows and
+          processes. I believe that fostering open communication and a positive
+          work environment leads to better solutions and stronger teams.
           <br />
           <br />
-          Thank you for taking the time to view my portfolio, and I look forward
-          to the opportunity to connect with you!
+          Throughout my career, I’ve taken pride in going beyond coding to
+          address broader challenges within the organization. Whether it's
+          improving internal processes, enhancing user experiences, or mentoring
+          less experienced team members, I enjoy taking ownership of tasks that
+          help elevate the team and the business as a whole.
+          <br />
+          <br />I am passionate about growing into leadership roles where I can
+          continue to innovate, empower others, and contribute to meaningful
+          projects that make a lasting impact.
         </InformationParagraph>
         <ButtonContainer>
           <LinkButton href={pdf} target="_blank">

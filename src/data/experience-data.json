@@ -1,27 +1,34 @@
 [
   {
     "id": "0",
-    "title": "Co-founder",
-    "date": "May 2022 - Present",
-    "location": "LEKR Services",
-    "description": "As a co-founder of LEKR Services, I developed a product that offers business tools and automation solutions for small to medium-sized businesses. The tech stack used in the product includes AWS Serverless Lambda, MongoDB, React Web App, and React Native Mobile App.\n\nThe product comprises custom authentication features that include OTP verification and token management, as well as functionalities for generating quotes, invoices, and lead generation. You can view the product at lekr.co\n\nIn addition to my work at LEKR Services, I also freelanced in my spare time."
+    "title": "Senior Software Engineer",
+    "date": "Mar 2023 - Present",
+    "location": "Loop",
+    "description": "I joined Loop during a pivotal phase as the company transitioned from outsourced development to building an in-house engineering team. This opportunity allowed me to drive key platform enhancements and establish processes to improve collaboration across the organization.\n\nKey Highlights:\n • Led major client projects, including a large-scale Takealot integration, recognized as one of Loop’s most successful technical endeavors.\n • Designed and implemented a System Monitoring Framework, enabling proactive decision-making through data insights.\n • Worked closely with cross-functional teams to refine processes, improve workflows, and enhance user experiences."
   },
   {
     "id": "1",
-    "title": "Tech Lead Full Stack Software Engineer",
-    "date": "Aug 2020 - Apr 2022",
-    "location": "MOHARA",
-    "description": "As a Tech Lead Software Engineer at MOHARA, I gained extensive experience working on various projects across multiple industries, including FinTech, HealthTech, PropertyTech, and IoT, among others. I started as a Full Stack engineer and transitioned to project Tech Lead, taking ownership of multiple projects and guiding them from ideation to successful product launches.\n\nMy responsibilities included managing and mentoring software engineers, front-end development using technologies such as React, Vue, and React Native, as well as back-end development using technologies such as Typescript, Node, Python, Go, and Ruby. Additionally, I gained experience in DevOps using AWS and Google Cloud Platform, Terraform, Serverless, Kubernetes, and Docker.\n\nMy expertise in solution design and tier 0 scoping for new clients helped me to provide valuable insights to the business development team, and I worked directly with both existing and potential clients. During my time at MOHARA, I gained experience working in teams ranging in size from 1 to 15 members, consisting of individuals from different countries including the UK, South Africa, and Thailand."
+    "title": "Co-founder",
+    "date": "May 2022 - Jun 2023",
+    "location": "LEKR Services",
+    "description": "Co-Founded LEKR SERVICES to provide freelance software development services while building an internal product aimed at automating business tools for small to medium-sized enterprises. This experience involved acquiring clients, understanding their business needs, and delivering tailored technical solutions.\n\nKey Highlights:\n • Built strong client relationships across various industries, translating business needs into scalable solutions.\n• Delivered custom software that provided tangible value, improving client workflows and business operations.\n • Developed an internal tool to automate key business functions like quote generation, invoicing, and lead management, enhancing efficiency for SMEs.\n • Gained valuable business acumen, managing client interactions and leading end-to-end solution delivery"
   },
   {
     "id": "2",
-    "title": "Intern",
-    "date": "Dec 2017 - Jan 2020",
-    "location": "SOLIDitech",
-    "description": "SOLIDitech offers end-to-end business automation tools to ISPs and Fibre providers in South Africa. I was lucky enough to participate in the SOLIDitech internship program during my university holidays throughout my university degree, where I gained a lot of real-world experience.\n\nDuring my time at SOLIDitech, I was part of the leadership team that led an internal project from start to finish. The project involved the development of an online testing environment used to evaluate new applicants for a job at MOHARA. This internal tool is still being used today.\n\nAdditionally, I was introduced to and actively used the scrum process and agile framework for project management, and worked with a Java-based tech stack for both front-end (JSP) and back-end development linked to a SQL database."
+    "title": "Full Stack Software Engineer",
+    "date": "Aug 2020 - Apr 2022",
+    "location": "MOHARA",
+    "description": "At MOHARA, an international consultancy with development hubs across the UK, South Africa, and Thailand, I progressed from Full Stack Engineer to Project Tech Lead. I led projects from initial concept to successful product launch across various industries, including FinTech, HealthTech, and PropertyTech.\n\nKey Highlights:\n • Led and managed diverse teams, guiding projects from ideation to market launch.\n • Worked closely with clients to translate business requirements into technical solutions, conducting solution design sessions.\n • Gained experience across multiple industries, quickly adapting to the unique challenges of each sector.\n • Played a pivotal role in business development by fostering relationships with clients and identifying new opportunities."
   },
   {
     "id": "3",
+    "title": "Intern",
+    "date": "Dec 2017 - Jan 2020",
+    "location": "SOLIDitech",
+    "description": "During my internship at SOLIDitech, I gained practical experience in real-world software development projects while balancing my university studies. I worked directly with different teams across the business, contributing to production code and client projects.\n\nKey Highlight:\n • Co-led the development of an internal testing tool featuring a browser-based Java compiler with automated code testing and feedback. This tool remains a key part of the company’s recruitment process today.\n\nThis hands-on experience provided a strong foundation in both front-end and back-end development, as well as client interaction and delivering value-driven solutions."
+  },
+  {
+    "id": "4",
     "title": "Bsc, Mathematical Sciences & Computer Science",
     "date": "Jan 2017 - Jan 2020",
     "location": "University of Stellenbosch",

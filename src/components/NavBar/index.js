@@ -30,7 +30,7 @@ const NavBar = ({ toggle }) => {
               <BarIcon />
             </MobileIcon>
             <NavMenu>
-              <NavItem>
+              {/* <NavItem>
                 <NavLinks
                   to="skills"
                   smooth={true}
@@ -40,7 +40,7 @@ const NavBar = ({ toggle }) => {
                 >
                   Skills
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLinks
                   to="experience"
